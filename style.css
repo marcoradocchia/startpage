@@ -1,65 +1,66 @@
-html, body {
-    background:#282828;
-    font-family: "JetBrainsMono Nerd Font";
-    color: #ea6962;
-    height: 100%;
-    width: 100%;
-    margin: auto;
+html,
+body {
+  background: #282828;
+  font-family: 'JetBrainsMono Nerd Font';
+  color: #ea6962;
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
 
 .container {
-    margin: auto;
-    width: 70%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+  margin: auto;
+  width: 70%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .head {
-    align-items: center;
-    font-size: 40px;
-    padding-top: 60px;
+  align-items: center;
+  font-size: 40px;
+  padding-top: 60px;
 }
 
 .category {
-    display: flex;
-    flex-direction: column;
-    width: 180px;
+  display: flex;
+  flex-direction: column;
+  width: 180px;
 }
 
 .bookmarks {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    vertical-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  vertical-align: center;
 }
 
 .title {
-    font-size: 20px;
+  font-size: 15px;
 }
 
 li {
-    font-size: 16px;
-    list-style-type: none;
-    padding: 5px
+  font-size: 13px;
+  list-style-type: none;
+  padding: 5px;
 }
 
 a:link {
-    text-decoration: none;
-    color: #d4be98;
+  text-decoration: none;
+  color: #d4be98;
 }
 
 a:visited {
-    color: #d4be98;
+  color: #d4be98;
 }
 
 a:hover {
-    color: #7daea3;
+  color: #7daea3;
 }
