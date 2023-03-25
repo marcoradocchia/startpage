@@ -1,8 +1,7 @@
 html,
 body {
   background: #181825;
-  font-family: 'BlexMono Nerd Font';
-  color: #f38ba8;
+  font-family: 'Ubuntu Mono Nerd Font';
   height: 100%;
   width: 100%;
   margin: auto;
@@ -10,16 +9,10 @@ body {
 
 .container {
   margin: auto;
-  width: 70%;
   position: relative;
+  width: 70%;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.head {
-  align-items: center;
-  font-size: 40px;
-  padding-top: 60px;
 }
 
 .category {
@@ -43,11 +36,12 @@ body {
 }
 
 .title {
-  font-size: 16px;
+  font-size: 18px;
+  color: #f38ba8;
 }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
   list-style-type: none;
   padding: 5px;
 }
